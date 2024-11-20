@@ -1,0 +1,54 @@
+# Backend Node modules
+node_modules
+
+# Backend Environment files
+.env
+
+# Backend Logs
+backend/*.log
+
+# Backend Build artifacts (if any)
+backend/dist/
+backend/build/
+
+# Frontend Node modules
+frontend/node_modules/
+
+# Frontend Build artifacts
+frontend/dist/
+frontend/build/
+
+# IDE and editor configuration files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# Cache files
+.cache/
+npm/
+
+/backend/.env
+# Logs
+*.log
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Misc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
